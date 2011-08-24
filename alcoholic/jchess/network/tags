@@ -1,0 +1,216 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BISHOP	../core/Field.java	/^	public static final int BISHOP = 5;$/;"	f	class:Field
+BLACK	../core/Field.java	/^	public static final int BLACK = 9;$/;"	f	class:Field
+BOARD	../core/Field.java	/^	public static final int BOARD = 1;$/;"	f	class:Field
+BishopMarker	../gui/model/BishopMarker.java	/^	public BishopMarker(boolean pWhite, Position pPosition)$/;"	m	class:BishopMarker
+BishopMarker	../gui/model/BishopMarker.java	/^public class BishopMarker extends Marker$/;"	c
+CLASS_PATH	../Makefile	/^CLASS_PATH = ..\/..\/:lib\/jvm\/lwjgl.jar:lib\/jvm\/lwjgl_devil.jar:lib\/jvm\/lwjgl_fmod3.jar:lib\/jvm\/lwjgl_util.jar$/;"	m
+CLASS_PATH	../core/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar$/;"	m
+CLASS_PATH	../gui/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar$/;"	m
+CLASS_PATH	../gui/model/Makefile	/^CLASS_PATH = ..\/..\/..\/..\/:..\/..\/lib\/jvm\/lwjgl.jar:..\/..\/lib\/jvm\/lwjgl_devil.jar:..\/..\/lib\/jvm\/lwjgl_fmod3.jar:..\/..\/lib\/jvm\/lwjgl_util.jar$/;"	m
+CLASS_PATH	../network/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar$/;"	m
+ClientManager	../network/ClientManager.java	/^	public ClientManager( String pIpAddress ) $/;"	m	class:ClientManager
+ClientManager	../network/ClientManager.java	/^public class ClientManager implements NetworkManager, Runnable$/;"	c
+Event	../network/Event.java	/^interface Event$/;"	i
+Field	../core/Field.java	/^public final class Field implements Serializable, Cloneable$/;"	c
+GUIManager	../gui/GUIManager.java	/^public class GUIManager$/;"	c
+JChess	../JChess.java	/^class JChess$/;"	c
+JSRCS	../core/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS	../gui/model/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS	../network/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS1	../Makefile	/^JSRCS1 = $(wildcard $(JSRCS1_PATH)\/*.java)$/;"	m
+JSRCS1	../gui/Makefile	/^JSRCS1 = $(wildcard $(JSRCS1_PATH\/)*.java)$/;"	m
+JSRCS1_PATH	../Makefile	/^JSRCS1_PATH = core$/;"	m
+JSRCS1_PATH	../gui/Makefile	/^JSRCS1_PATH = model$/;"	m
+JSRCS2	../Makefile	/^JSRCS2 = $(wildcard $(JSRCS2_PATH)\/*.java)$/;"	m
+JSRCS2	../gui/Makefile	/^JSRCS2 = $(wildcard *.java)$/;"	m
+JSRCS2_PATH	../Makefile	/^JSRCS2_PATH = gui$/;"	m
+JSRCS3	../Makefile	/^JSRCS3 = $(wildcard $(JSRCS3_PATH)\/*.java)$/;"	m
+JSRCS3_PATH	../Makefile	/^JSRCS3_PATH = network$/;"	m
+KING	../core/Field.java	/^	public static final int KING = 7;$/;"	f	class:Field
+KNIGHT	../core/Field.java	/^	public static final int KNIGHT = 4;$/;"	f	class:Field
+KingMarker	../gui/model/KingMarker.java	/^	public KingMarker(boolean pWhite, Position pPosition)$/;"	m	class:KingMarker
+KingMarker	../gui/model/KingMarker.java	/^public class KingMarker extends Marker$/;"	c
+KnightMarker	../gui/model/KnightMarker.java	/^	public KnightMarker(boolean pWhite, Position pPosition)$/;"	m	class:KnightMarker
+KnightMarker	../gui/model/KnightMarker.java	/^public class KnightMarker extends Marker$/;"	c
+LIB_PATH	../Makefile	/^LIB_PATH = lib\/$/;"	m
+LIB_PATH	../core/Makefile	/^LIB_PATH = lib\/$/;"	m
+LIB_PATH	../gui/Makefile	/^LIB_PATH = lib\/$/;"	m
+LIB_PATH	../gui/model/Makefile	/^LIB_PATH = lib\/$/;"	m
+LIB_PATH	../network/Makefile	/^LIB_PATH = lib\/$/;"	m
+MAIN_SRC	../Makefile	/^MAIN_SRC = JChess.java$/;"	m
+Marker	../gui/model/Marker.java	/^	public Marker(boolean pWhite, Position pPosition)$/;"	m	class:Marker
+Marker	../gui/model/Marker.java	/^public abstract class Marker$/;"	c
+MarkerManager	../gui/model/MarkerManager.java	/^	public MarkerManager(Field[][] pField)$/;"	m	class:ModelManager
+ModelManager	../gui/model/MarkerManager.java	/^public class ModelManager$/;"	c
+MovementEvent	../network/MovementEvent.java	/^	public MovementEvent( int pRow, int pCol )$/;"	m	class:MovementEvent
+MovementEvent	../network/MovementEvent.java	/^public class MovementEvent implements Event, Serializable$/;"	c
+NONE	../core/Field.java	/^	public static final int NONE = 0;$/;"	f	class:Field
+NetworkManager	../network/NetworkManager.java	/^interface NetworkManager$/;"	i
+PAWN	../core/Field.java	/^	public static final int PAWN = 2;$/;"	f	class:Field
+PORT_NUMBER	../network/NetworkManager.java	/^	public static final int PORT_NUMBER = 451231;$/;"	f	interface:NetworkManager
+PawnMarker	../gui/model/PawnMarker.java	/^	public PawnMarker(boolean pWhite, Position pPosition)$/;"	m	class:PawnMarker
+PawnMarker	../gui/model/PawnMarker.java	/^public class PawnMarker extends Marker$/;"	c
+QUEEN	../core/Field.java	/^	public static final int QUEEN = 6;$/;"	f	class:Field
+QueenMarker	../gui/model/QueenMarker.java	/^	public QueenMarker(boolean pWhite, Position pPosition)$/;"	m	class:QueenMarker
+QueenMarker	../gui/model/QueenMarker.java	/^public class QueenMarker extends Marker$/;"	c
+ROOK	../core/Field.java	/^	public static final int ROOK = 3;$/;"	f	class:Field
+RookMarker	../gui/model/RookMarker.java	/^	public RookMarker(boolean pWhite, Position pPosition)$/;"	m	class:RookMarker
+RookMarker	../gui/model/RookMarker.java	/^public class RookMarker extends Marker$/;"	c
+SelectionEvent	../network/SelectionEvent.java	/^	public SelectionEvent( int pRow, int pCol )$/;"	m	class:SelectionEvent
+SelectionEvent	../network/SelectionEvent.java	/^public class SelectionEvent implements Event, Serializable$/;"	c
+ServerManager	../network/ServerManager.java	/^	public ServerManager( State pState )$/;"	m	class:ServerManager
+ServerManager	../network/ServerManager.java	/^public class ServerManager implements Runnable, NetworkManager$/;"	c
+State	../core/State.java	/^	public State()$/;"	m	class:State
+State	../core/State.java	/^public class State$/;"	c
+TARGET	../Makefile	/^TARGET = $(MAIN_SRC:.java=.class)$/;"	m
+TARGET	../core/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+TARGET	../gui/Makefile	/^TARGET = $(JSRCS2:.java=.class)$/;"	m
+TARGET	../gui/model/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+TARGET	../network/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+WHITE	../core/Field.java	/^	public static final int WHITE = 8;$/;"	f	class:Field
+alcoholic.chess.gui.model	../gui/model/MarkerManager.java	/^package alcoholic.chess.gui.model;$/;"	p
+alcoholic.chess.marker	../gui/model/BishopMarker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.chess.marker	../gui/model/KingMarker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.chess.marker	../gui/model/KnightMarker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.chess.marker	../gui/model/Marker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.chess.marker	../gui/model/PawnMarker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.chess.marker	../gui/model/QueenMarker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.chess.marker	../gui/model/RookMarker.java	/^package alcoholic.chess.marker;$/;"	p
+alcoholic.jchess	../JChess.java	/^package alcoholic.jchess;$/;"	p
+alcoholic.jchess.core	../core/Field.java	/^package alcoholic.jchess.core;$/;"	p
+alcoholic.jchess.core	../core/State.java	/^package alcoholic.jchess.core;$/;"	p
+alcoholic.jchess.gui	../gui/GUIManager.java	/^package alcoholic.jchess.gui;$/;"	p
+alcoholic.jchess.network	../network/ClientManager.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/Event.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/MovementEvent.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/NetworkManager.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/SelectionEvent.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/ServerManager.java	/^package alcoholic.jchess.network;$/;"	p
+blackDead	../core/State.java	/^	private int[] blackDead = new int[16];$/;"	f	class:State	file:
+blackDeadCnt	../core/State.java	/^	private int blackDeadCnt;$/;"	f	class:State	file:
+blackKingCol	../core/State.java	/^	private int blackKingCol;$/;"	f	class:State	file:
+blackKingRow	../core/State.java	/^	private int blackKingRow;$/;"	f	class:State	file:
+blackSpecialMove	../core/State.java	/^	private boolean blackSpecialMove;$/;"	f	class:State	file:
+boardList	../gui/model/MarkerManager.java	/^	private static int boardList = new BoardMaker().make($/;"	f	class:ModelManager	file:
+clearHighlight	../core/State.java	/^	private void clearHighlight()$/;"	m	class:State	file:
+clone	../core/Field.java	/^	public Object clone() {$/;"	m	class:Field
+col	../network/MovementEvent.java	/^	private int col;$/;"	f	class:MovementEvent	file:
+col	../network/SelectionEvent.java	/^	private int col;$/;"	f	class:SelectionEvent	file:
+color	../core/Field.java	/^	public int color = NONE;$/;"	f	class:Field
+copyField	../core/State.java	/^	private Field[][] copyField( Field[][] pField )$/;"	m	class:State	file:
+curX	../gui/model/Marker.java	/^	protected float curX = Position.START_X;$/;"	f	class:Marker
+curY	../gui/model/Marker.java	/^	protected float curY = Position.START_Y;$/;"	f	class:Marker
+currentColor	../core/State.java	/^	private int currentColor;$/;"	f	class:State	file:
+deselect	../core/State.java	/^	public void deselect()$/;"	m	class:State
+done	../network/ClientManager.java	/^	private boolean done = false;$/;"	f	class:ClientManager	file:
+done	../network/ServerManager.java	/^	private boolean done = false;$/;"	f	class:ServerManager	file:
+draw	../gui/model/BishopMarker.java	/^	public static void draw()$/;"	m	class:BishopMarker
+draw	../gui/model/KingMarker.java	/^	public static void draw()$/;"	m	class:KingMarker
+draw	../gui/model/KnightMarker.java	/^	public static void draw()$/;"	m	class:KnightMarker
+draw	../gui/model/PawnMarker.java	/^	public static void draw()$/;"	m	class:PawnMarker
+draw	../gui/model/QueenMarker.java	/^	public static void draw()$/;"	m	class:QueenMarker
+draw	../gui/model/RookMarker.java	/^	public static void draw()$/;"	m	class:RookMarker
+drawAllMarkers	../gui/model/MarkerManager.java	/^	public void drawAllMarkers()$/;"	m	class:ModelManager
+drawBoard	../gui/model/MarkerManager.java	/^	private void drawBoard()$/;"	m	class:ModelManager	file:
+field	../core/State.java	/^	private Field[][] field = new Field[8][8];$/;"	f	class:State	file:
+getField	../core/State.java	/^	public Field[][] getField()$/;"	m	class:State
+getSelectedCol	../core/State.java	/^	public int getSelectedCol()$/;"	m	class:State
+getSelectedKind	../core/State.java	/^	public int getSelectedKind()$/;"	m	class:State
+getSelectedRow	../core/State.java	/^	public int getSelectedRow()$/;"	m	class:State
+getState	../network/ClientManager.java	/^	public State getState()$/;"	m	class:ClientManager
+getTurn	../core/State.java	/^	public int getTurn()$/;"	m	class:State
+haveMoveMarker	../gui/model/MarkerManager.java	/^	public boolean haveMoveMarker()$/;"	m	class:ModelManager
+highlight	../core/Field.java	/^	public boolean highlight = false;$/;"	f	class:Field
+in	../network/ClientManager.java	/^	private ObjectInputStream in;$/;"	f	class:ClientManager	file:
+in	../network/ServerManager.java	/^	private ObjectInputStream in;$/;"	f	class:ServerManager	file:
+ipAddress	../network/ClientManager.java	/^	private String ipAddress;$/;"	f	class:ClientManager	file:
+isAvailableField	../core/State.java	/^	private boolean isAvailableField( int pRow, int pCol )$/;"	m	class:State	file:
+isAvailableSelection	../core/State.java	/^	private boolean isAvailableSelection( int pRow, int pCol )$/;"	m	class:State	file:
+isCheckMate	../core/State.java	/^	private boolean isCheckMate()$/;"	m	class:State	file:
+isEnemyField	../core/State.java	/^	private boolean isEnemyField( int pRow, int pCol )$/;"	m	class:State	file:
+isHighlightOn	../core/State.java	/^	private boolean isHighlightOn( int pRow, int pCol )$/;"	m	class:State	file:
+isLost	../core/State.java	/^	public boolean isLost()$/;"	m	class:State
+isMove	../gui/model/Marker.java	/^	public boolean isMove()$/;"	m	class:Marker
+isNoneField	../core/State.java	/^	private boolean isNoneField( int pRow, int pCol )$/;"	m	class:State	file:
+isOurField	../core/State.java	/^	private boolean isOurField( int pRow, int pCol )$/;"	m	class:State	file:
+isSelected	../core/State.java	/^	public boolean isSelected()$/;"	m	class:State
+isValidPosition	../gui/model/BishopMarker.java	/^	protected boolean isValidPosition(Position pPosition)$/;"	m	class:BishopMarker
+isValidPosition	../gui/model/KingMarker.java	/^	protected boolean isValidPosition(Position pPosition)$/;"	m	class:KingMarker
+isValidPosition	../gui/model/KnightMarker.java	/^	protected boolean isValidPosition(Position pPosition)$/;"	m	class:KnightMarker
+isValidPosition	../gui/model/Marker.java	/^	protected abstract boolean isValidPosition(Position pPosition);$/;"	m	class:Marker
+isValidPosition	../gui/model/PawnMarker.java	/^	protected boolean isValidPosition(Position pPosition)$/;"	m	class:PawnMarker
+isValidPosition	../gui/model/QueenMarker.java	/^	protected boolean isValidPosition(Position pPosition)$/;"	m	class:QueenMarker
+isValidPosition	../gui/model/RookMarker.java	/^	protected boolean isValidPosition(Position pPosition)$/;"	m	class:RookMarker
+kind	../core/Field.java	/^	public int kind = NONE;$/;"	f	class:Field
+main	../JChess.java	/^	public static void main(String[] args) {$/;"	m	class:JChess
+markers	../gui/model/MarkerManager.java	/^	private HashMap markers;$/;"	f	class:ModelManager	file:
+modelList	../gui/model/BishopMarker.java	/^	protected static int modelList =  $/;"	f	class:BishopMarker
+modelList	../gui/model/KingMarker.java	/^	protected static int modelList =  $/;"	f	class:KingMarker
+modelList	../gui/model/KnightMarker.java	/^	protected static int modelList =  $/;"	f	class:KnightMarker
+modelList	../gui/model/PawnMarker.java	/^	protected static int modelList =  $/;"	f	class:PawnMarker
+modelList	../gui/model/QueenMarker.java	/^	protected static int modelList =  $/;"	f	class:QueenMarker
+modelList	../gui/model/RookMarker.java	/^	protected static int modelList =  $/;"	f	class:RookMarker
+move	../gui/model/MarkerManager.java	/^	public void move(MovementEvent pMovement)$/;"	m	class:ModelManager
+movePosition	../gui/model/Marker.java	/^	public boolean movePosition(Position pPosition)$/;"	m	class:Marker
+moveTo	../core/State.java	/^	public boolean moveTo( int pRow, int pCol )$/;"	m	class:State
+moveUnit	../gui/model/Marker.java	/^	protected static float moveUnit = 6.0f;$/;"	f	class:Marker
+out	../network/ClientManager.java	/^	private ObjectOutputStream out;$/;"	f	class:ClientManager	file:
+out	../network/ServerManager.java	/^	private ObjectOutputStream out;$/;"	f	class:ServerManager	file:
+pass	../core/State.java	/^	public void pass()$/;"	m	class:State
+printAll	../core/State.java	/^	public void printAll()$/;"	m	class:State
+process	../network/Event.java	/^	public void process( State pState );$/;"	m	interface:Event
+process	../network/MovementEvent.java	/^	public void process( State pState )$/;"	m	class:MovementEvent
+process	../network/SelectionEvent.java	/^	public void process( State pState )$/;"	m	class:SelectionEvent
+reset	../gui/model/MarkerManager.java	/^	public void reset()$/;"	m	class:ModelManager
+row	../network/MovementEvent.java	/^	private int row;$/;"	f	class:MovementEvent	file:
+row	../network/SelectionEvent.java	/^	private int row;$/;"	f	class:SelectionEvent	file:
+run	../network/ClientManager.java	/^	public void run()$/;"	m	class:ClientManager
+run	../network/ServerManager.java	/^	public void run()$/;"	m	class:ServerManager
+select	../core/State.java	/^	public boolean select( int pRow, int pCol )$/;"	m	class:State
+selectedCol	../core/State.java	/^	private int selectedCol;$/;"	f	class:State	file:
+selectedRow	../core/State.java	/^	private int selectedRow;$/;"	f	class:State	file:
+sendEvent	../network/ClientManager.java	/^	public void sendEvent( Event pEvent )$/;"	m	class:ClientManager
+setBishopHighlightOn	../core/State.java	/^	private void setBishopHighlightOn()$/;"	m	class:State	file:
+setHighlightOn	../core/State.java	/^	private void setHighlightOn()$/;"	m	class:State	file:
+setKingHighlightOn	../core/State.java	/^	private void setKingHighlightOn()$/;"	m	class:State	file:
+setKnightHighlightOn	../core/State.java	/^	private void setKnightHighlightOn()$/;"	m	class:State	file:
+setPawnHighlightOn	../core/State.java	/^	private void setPawnHighlightOn()$/;"	m	class:State	file:
+setPosition	../gui/model/Marker.java	/^	public boolean setPosition(Position pPosition)$/;"	m	class:Marker
+setQueenHighlightOn	../core/State.java	/^	private void setQueenHighlightOn()$/;"	m	class:State	file:
+setRookHighlightOn	../core/State.java	/^	private void setRookHighlightOn()$/;"	m	class:State	file:
+setVisible	../gui/model/Marker.java	/^	public void setVisible(boolean pVisible)$/;"	m	class:Marker
+socket	../network/ClientManager.java	/^	private Socket socket;$/;"	f	class:ClientManager	file:
+socket	../network/ServerManager.java	/^	private Socket socket;$/;"	f	class:ServerManager	file:
+srvSocket	../network/ServerManager.java	/^	private ServerSocket srvSocket;$/;"	f	class:ServerManager	file:
+start	../network/ClientManager.java	/^	public void start()$/;"	m	class:ClientManager
+start	../network/ServerManager.java	/^	public void start()$/;"	m	class:ServerManager
+state	../network/ClientManager.java	/^	private State state;$/;"	f	class:ClientManager	file:
+state	../network/ServerManager.java	/^	private State state;$/;"	f	class:ServerManager	file:
+stop	../network/ClientManager.java	/^	public void stop()$/;"	m	class:ClientManager
+stop	../network/ServerManager.java	/^	public void stop()$/;"	m	class:ServerManager
+thread	../network/ClientManager.java	/^	private Thread thread;$/;"	f	class:ClientManager	file:
+thread	../network/ServerManager.java	/^	private Thread thread;$/;"	f	class:ServerManager	file:
+translate	../gui/model/Marker.java	/^	public void translate()$/;"	m	class:Marker
+translateAndDraw	../gui/model/BishopMarker.java	/^	public void translateAndDraw()$/;"	m	class:BishopMarker
+translateAndDraw	../gui/model/KingMarker.java	/^	public void translateAndDraw()$/;"	m	class:KingMarker
+translateAndDraw	../gui/model/KnightMarker.java	/^	public void translateAndDraw()$/;"	m	class:KnightMarker
+translateAndDraw	../gui/model/Marker.java	/^	public abstract void translateAndDraw();$/;"	m	class:Marker
+translateAndDraw	../gui/model/PawnMarker.java	/^	public void translateAndDraw()$/;"	m	class:PawnMarker
+translateAndDraw	../gui/model/QueenMarker.java	/^	public void translateAndDraw()$/;"	m	class:QueenMarker
+translateAndDraw	../gui/model/RookMarker.java	/^	public void translateAndDraw()$/;"	m	class:RookMarker
+verifyHighlight	../core/State.java	/^	private void verifyHighlight()$/;"	m	class:State	file:
+visible	../gui/model/Marker.java	/^	protected boolean visible = true;$/;"	f	class:Marker
+white	../gui/model/Marker.java	/^	protected boolean white = true;$/;"	f	class:Marker
+whiteDead	../core/State.java	/^	private int[] whiteDead = new int[16];$/;"	f	class:State	file:
+whiteDeadCnt	../core/State.java	/^	private int whiteDeadCnt;$/;"	f	class:State	file:
+whiteKingCol	../core/State.java	/^	private int whiteKingCol;$/;"	f	class:State	file:
+whiteKingRow	../core/State.java	/^	private int whiteKingRow;$/;"	f	class:State	file:
+whiteSpecialMove	../core/State.java	/^	private boolean whiteSpecialMove;$/;"	f	class:State	file:
+x	../gui/model/Marker.java	/^	protected float x = Position.START_X;$/;"	f	class:Marker
+y	../gui/model/Marker.java	/^	protected float y = Position.START_Y;$/;"	f	class:Marker

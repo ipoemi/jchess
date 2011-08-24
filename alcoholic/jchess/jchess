@@ -1,0 +1,5 @@
+# !/bin/bash
+
+CLASS_PATH=$CLASSPATH:../../:lib/jvm/lwjgl.jar:lib/jvm/lwjgl_devil.jar:lib/jvm/lwjgl_fmod3.jar:lib/jvm/lwjgl_util.jar:lib/jvm/jinput.jar
+
+java -Djava.library.path=lib/linux/ -cp $CLASS_PATH alcoholic.jchess.JChess

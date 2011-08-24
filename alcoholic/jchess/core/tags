@@ -1,0 +1,288 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AlcHeader	../util/AlcHeader.java	/^public class AlcHeader$/;"	c
+BISHOP	../core/Field.java	/^	public static final int BISHOP = 4;$/;"	f	class:Field
+BLACK	../core/Field.java	/^	public static final int BLACK = 8;$/;"	f	class:Field
+BUFFER_LENGTH	../model/ModelManager.java	/^	private static final int BUFFER_LENGTH = 64;$/;"	f	class:ModelManager	file:
+BoardModel	../model/BoardModel.java	/^	public BoardModel() {}$/;"	m	class:BoardModel
+BoardModel	../model/BoardModel.java	/^public class BoardModel$/;"	c
+CLASS_PATH	../Makefile	/^CLASS_PATH = ..\/..\/:lib\/jvm\/lwjgl.jar:lib\/jvm\/lwjgl_devil.jar:lib\/jvm\/lwjgl_fmod3.jar:lib\/jvm\/lwjgl_util.jar:lib\/jvm\/jinput.jar$/;"	m
+CLASS_PATH	../core/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar:lib\/jvm\/jinput.jar$/;"	m
+CLASS_PATH	../model/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/..\/lib\/jvm\/lwjgl.jar:..\/..\/lib\/jvm\/lwjgl_devil.jar:..\/..\/lib\/jvm\/lwjgl_fmod3.jar:..\/..\/lib\/jvm\/lwjgl_util.jar:lib\/jvm\/jinput.jar$/;"	m
+CLASS_PATH	../network/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar:lib\/jvm\/jinput.jar$/;"	m
+CLASS_PATH	../scene/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar:lib\/jvm\/jinput.jar$/;"	m
+CLASS_PATH	../util/Makefile	/^CLASS_PATH = ..\/..\/..\/:..\/lib\/jvm\/lwjgl.jar:..\/lib\/jvm\/lwjgl_devil.jar:..\/lib\/jvm\/lwjgl_fmod3.jar:..\/lib\/jvm\/lwjgl_util.jar:lib\/jvm\/jinput.jar$/;"	m
+CameraManager	../scene/CameraManager.java	/^	public CameraManager( boolean reverse )$/;"	m	class:CameraManager
+CameraManager	../scene/CameraManager.java	/^public class CameraManager$/;"	c
+ClientManager	../network/ClientManager.java	/^	public ClientManager( String pIpAddress ) $/;"	m	class:ClientManager
+ClientManager	../network/ClientManager.java	/^public class ClientManager implements NetworkManager, Runnable$/;"	c
+DeselectionEvent	../network/DeselectionEvent.java	/^	public DeselectionEvent() {}$/;"	m	class:DeselectionEvent
+DeselectionEvent	../network/DeselectionEvent.java	/^public class DeselectionEvent implements Event, Serializable$/;"	c
+Djava.library.path	../Makefile	/^	java -Djava.library.path=$(LIB_PATH) -cp $$CLASSPATH:$(CLASS_PATH) alcoholic.jchess.JChessDebug$/;"	m
+Event	../network/Event.java	/^public interface Event$/;"	i
+Face	../util/Face.java	/^	public Face(int pV1, int pV2, int pV3) $/;"	m	class:Face
+Face	../util/Face.java	/^public class Face $/;"	c
+Field	../core/Field.java	/^public final class Field implements Serializable, Cloneable$/;"	c
+JChess	../JChess.java	/^public class JChess$/;"	c
+JChessDebug	../JChessDebug.java	/^public class JChessDebug$/;"	c
+JSRCS	../core/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS	../model/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS	../network/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS	../scene/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS	../util/Makefile	/^JSRCS = $(wildcard *.java)$/;"	m
+JSRCS1	../Makefile	/^JSRCS1 = $(wildcard $(JSRCS1_PATH)\/*.java)$/;"	m
+JSRCS1_PATH	../Makefile	/^JSRCS1_PATH = core$/;"	m
+JSRCS2	../Makefile	/^JSRCS2 = $(wildcard $(JSRCS2_PATH)\/*.java)$/;"	m
+JSRCS2_PATH	../Makefile	/^JSRCS2_PATH = scene$/;"	m
+JSRCS3	../Makefile	/^JSRCS3 = $(wildcard $(JSRCS3_PATH)\/*.java)$/;"	m
+JSRCS3_PATH	../Makefile	/^JSRCS3_PATH = network$/;"	m
+JSRCS4	../Makefile	/^JSRCS4 = $(wildcard $(JSRCS4_PATH)\/*.java)$/;"	m
+JSRCS4_PATH	../Makefile	/^JSRCS4_PATH = model$/;"	m
+KING	../core/Field.java	/^	public static final int KING = 6;$/;"	f	class:Field
+KNIGHT	../core/Field.java	/^	public static final int KNIGHT = 3;$/;"	f	class:Field
+LIB_PATH	../Makefile	/^LIB_PATH = lib\/linux\/$/;"	m
+LIB_PATH	../core/Makefile	/^LIB_PATH = lib\/linux\/$/;"	m
+LIB_PATH	../model/Makefile	/^LIB_PATH = lib\/linux\/$/;"	m
+LIB_PATH	../network/Makefile	/^LIB_PATH = lib\/linux\/$/;"	m
+LIB_PATH	../scene/Makefile	/^LIB_PATH = lib\/linux\/$/;"	m
+LIB_PATH	../util/Makefile	/^LIB_PATH = lib\/linux\/$/;"	m
+MAIN_SRC	../Makefile	/^MAIN_SRC = JChess.java$/;"	m
+MOUSE_LEFT_BUTTON	../model/ModelManager.java	/^	private static final int MOUSE_LEFT_BUTTON = 0;$/;"	f	class:ModelManager	file:
+MOUSE_LEFT_BUTTON	../scene/CameraManager.java	/^	private static final int MOUSE_LEFT_BUTTON = 0;$/;"	f	class:CameraManager	file:
+MOUSE_RIGHT_BUTTON	../scene/CameraManager.java	/^	private static final int MOUSE_RIGHT_BUTTON = 1;$/;"	f	class:CameraManager	file:
+MarkerModel	../model/MarkerModel.java	/^	public MarkerModel() {}$/;"	m	class:MarkerModel
+MarkerModel	../model/MarkerModel.java	/^public class MarkerModel$/;"	c
+ModelLoader	../model/ModelLoader.java	/^public class ModelLoader$/;"	c
+ModelManager	../model/ModelManager.java	/^	public ModelManager( boolean pServer, $/;"	m	class:ModelManager
+ModelManager	../model/ModelManager.java	/^public class ModelManager$/;"	c
+MovementEvent	../network/MovementEvent.java	/^	public MovementEvent( int pRow, int pCol )$/;"	m	class:MovementEvent
+MovementEvent	../network/MovementEvent.java	/^public class MovementEvent implements Event, Serializable$/;"	c
+NONE	../core/Field.java	/^	public static final int NONE = 0;$/;"	f	class:Field
+NetworkManager	../network/NetworkManager.java	/^public interface NetworkManager$/;"	i
+PAWN	../core/Field.java	/^	public static final int PAWN = 1;$/;"	f	class:Field
+PORT_NUMBER	../network/NetworkManager.java	/^	public static final int PORT_NUMBER = 45123;$/;"	f	interface:NetworkManager
+QUEEN	../core/Field.java	/^	public static final int QUEEN = 5;$/;"	f	class:Field
+ROOK	../core/Field.java	/^	public static final int ROOK = 2;$/;"	f	class:Field
+START_X	../model/BoardModel.java	/^	private static final float START_X = -3.5f * UNIT_OF_ROOM;$/;"	f	class:BoardModel	file:
+START_X	../model/ModelManager.java	/^	private static final float START_X = -3.5f * UNIT_OF_ROOM;$/;"	f	class:ModelManager	file:
+START_Y	../model/BoardModel.java	/^	private static final float START_Y = 3.5f * UNIT_OF_ROOM;$/;"	f	class:BoardModel	file:
+START_Y	../model/ModelManager.java	/^	private static final float START_Y = 3.5f * UNIT_OF_ROOM;$/;"	f	class:ModelManager	file:
+SceneManager	../scene/SceneManager.java	/^	public SceneManager()$/;"	m	class:SceneManager
+SceneManager	../scene/SceneManager.java	/^public class SceneManager $/;"	c
+SelectionEvent	../network/SelectionEvent.java	/^	public SelectionEvent( int pRow, int pCol )$/;"	m	class:SelectionEvent
+SelectionEvent	../network/SelectionEvent.java	/^public class SelectionEvent implements Event, Serializable$/;"	c
+ServerManager	../network/ServerManager.java	/^	public ServerManager( State pState )$/;"	m	class:ServerManager
+ServerManager	../network/ServerManager.java	/^public class ServerManager implements Runnable, NetworkManager$/;"	c
+State	../core/State.java	/^	public State()$/;"	m	class:State
+State	../core/State.java	/^public class State implements Serializable, Cloneable$/;"	c
+TARGET	../Makefile	/^TARGET = $(MAIN_SRC:.java=.class)$/;"	m
+TARGET	../core/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+TARGET	../model/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+TARGET	../network/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+TARGET	../scene/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+TARGET	../util/Makefile	/^TARGET = $(JSRCS:.java=.class)$/;"	m
+UNIT_OF_ROOM	../model/BoardModel.java	/^	private static final float UNIT_OF_ROOM = 2.0f;$/;"	f	class:BoardModel	file:
+UNIT_OF_ROOM	../model/ModelManager.java	/^	private static final float UNIT_OF_ROOM = 2.0f;$/;"	f	class:ModelManager	file:
+WHITE	../core/Field.java	/^	public static final int WHITE = 7;$/;"	f	class:Field
+WindowManager	../scene/WindowManager.java	/^	public WindowManager( boolean pServer, boolean pFullscreen )$/;"	m	class:WindowManager
+WindowManager	../scene/WindowManager.java	/^public class WindowManager$/;"	c
+Xml2Alc	../util/Xml2Alc.java	/^	public Xml2Alc() {}$/;"	m	class:Xml2Alc
+Xml2Alc	../util/Xml2Alc.java	/^public class Xml2Alc$/;"	c
+alcHeader	../model/ModelLoader.java	/^	private AlcHeader alcHeader  =  new AlcHeader();$/;"	f	class:ModelLoader	file:
+alcHeader	../util/Xml2Alc.java	/^	AlcHeader alcHeader = new AlcHeader();$/;"	f	class:Xml2Alc
+alcoholic.jchess	../JChess.java	/^package alcoholic.jchess;$/;"	p
+alcoholic.jchess	../JChessDebug.java	/^package alcoholic.jchess;$/;"	p
+alcoholic.jchess.core	../core/Field.java	/^package alcoholic.jchess.core;$/;"	p
+alcoholic.jchess.core	../core/State.java	/^package alcoholic.jchess.core;$/;"	p
+alcoholic.jchess.model	../model/BoardModel.java	/^package alcoholic.jchess.model;$/;"	p
+alcoholic.jchess.model	../model/MarkerModel.java	/^package alcoholic.jchess.model;$/;"	p
+alcoholic.jchess.model	../model/ModelLoader.java	/^package alcoholic.jchess.model;$/;"	p
+alcoholic.jchess.model	../model/ModelManager.java	/^package alcoholic.jchess.model;$/;"	p
+alcoholic.jchess.network	../network/ClientManager.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/DeselectionEvent.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/Event.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/MovementEvent.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/NetworkManager.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/SelectionEvent.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.network	../network/ServerManager.java	/^package alcoholic.jchess.network;$/;"	p
+alcoholic.jchess.scene	../scene/CameraManager.java	/^package alcoholic.jchess.scene;$/;"	p
+alcoholic.jchess.scene	../scene/SceneManager.java	/^package alcoholic.jchess.scene;$/;"	p
+alcoholic.jchess.scene	../scene/WindowManager.java	/^package alcoholic.jchess.scene;$/;"	p
+alcoholic.jchess.util	../util/AlcHeader.java	/^package alcoholic.jchess.util;$/;"	p
+alcoholic.jchess.util	../util/Face.java	/^package alcoholic.jchess.util;$/;"	p
+alcoholic.jchess.util	../util/Xml2Alc.java	/^package alcoholic.jchess.util;$/;"	p
+begin	../scene/SceneManager.java	/^	public void begin()$/;"	m	class:SceneManager
+blackDead	../core/State.java	/^	private int[] blackDead = new int[16];$/;"	f	class:State	file:
+blackDeadCnt	../core/State.java	/^	private int blackDeadCnt;$/;"	f	class:State	file:
+blackKingCol	../core/State.java	/^	private int blackKingCol;$/;"	f	class:State	file:
+blackKingRow	../core/State.java	/^	private int blackKingRow;$/;"	f	class:State	file:
+blackSpecialMove	../core/State.java	/^	private boolean blackSpecialMove;$/;"	f	class:State	file:
+board	../model/ModelManager.java	/^	private BoardModel board;$/;"	f	class:ModelManager	file:
+camera	../model/ModelManager.java	/^	private CameraManager camera;$/;"	f	class:ModelManager	file:
+clearHighlight	../core/State.java	/^	private void clearHighlight()$/;"	m	class:State	file:
+clone	../core/Field.java	/^	public Object clone() {$/;"	m	class:Field
+clone	../core/State.java	/^	public Object clone()$/;"	m	class:State
+closeFiles	../util/Xml2Alc.java	/^	public void closeFiles()$/;"	m	class:Xml2Alc
+col	../network/DeselectionEvent.java	/^	private int col;$/;"	f	class:DeselectionEvent	file:
+col	../network/MovementEvent.java	/^	private int col;$/;"	f	class:MovementEvent	file:
+col	../network/SelectionEvent.java	/^	private int col;$/;"	f	class:SelectionEvent	file:
+color	../core/Field.java	/^	public int color = NONE;$/;"	f	class:Field
+copyField	../core/State.java	/^	private Field[][] copyField( Field[][] pField )$/;"	m	class:State	file:
+create	../scene/WindowManager.java	/^	public void create()$/;"	m	class:WindowManager
+currentCol	../model/ModelManager.java	/^	private int currentCol;$/;"	f	class:ModelManager	file:
+currentColor	../core/State.java	/^	private int currentColor;$/;"	f	class:State	file:
+currentRow	../model/ModelManager.java	/^	private int currentRow;$/;"	f	class:ModelManager	file:
+desc	../util/AlcHeader.java	/^	public byte desc[] = new byte[32]; \/\/ char 'A' 'L' 'C'$/;"	f	class:AlcHeader
+descNum	../util/AlcHeader.java	/^	public int descNum = 0xC1;$/;"	f	class:AlcHeader
+deselect	../core/State.java	/^	public void deselect()$/;"	m	class:State
+destroyWindow	../scene/WindowManager.java	/^	public void destroyWindow()$/;"	m	class:WindowManager
+displayMode	../scene/WindowManager.java	/^	private DisplayMode displayMode;$/;"	f	class:WindowManager	file:
+done	../network/ClientManager.java	/^	boolean done = false;$/;"	f	class:ClientManager
+done	../network/ServerManager.java	/^	private boolean done = false;$/;"	f	class:ServerManager	file:
+draw	../model/BoardModel.java	/^	public void draw()$/;"	m	class:BoardModel
+draw	../model/MarkerModel.java	/^	public void draw()$/;"	m	class:MarkerModel
+draw	../model/ModelManager.java	/^	public void draw()$/;"	m	class:ModelManager
+end	../scene/SceneManager.java	/^	public void end()$/;"	m	class:SceneManager
+faces	../model/ModelLoader.java	/^	private Face[] faces;$/;"	f	class:ModelLoader	file:
+faces	../util/Xml2Alc.java	/^	ArrayList faces = new ArrayList();$/;"	f	class:Xml2Alc
+field	../core/State.java	/^	private Field[][] field = new Field[8][8];$/;"	f	class:State	file:
+fullscreen	../scene/WindowManager.java	/^	private boolean fullscreen;$/;"	f	class:WindowManager	file:
+getBlackDead	../core/State.java	/^	public int[] getBlackDead()$/;"	m	class:State
+getBlackDeadCnt	../core/State.java	/^	public int getBlackDeadCnt()$/;"	m	class:State
+getField	../core/State.java	/^	public Field[][] getField()$/;"	m	class:State
+getLoser	../core/State.java	/^	public int getLoser()$/;"	m	class:State
+getSelectedCol	../core/State.java	/^	public int getSelectedCol()$/;"	m	class:State
+getSelectedKind	../core/State.java	/^	public int getSelectedKind()$/;"	m	class:State
+getSelectedRow	../core/State.java	/^	public int getSelectedRow()$/;"	m	class:State
+getState	../network/ClientManager.java	/^	public State getState()$/;"	m	class:ClientManager
+getTurn	../core/State.java	/^	public int getTurn()$/;"	m	class:State
+getV1	../util/Face.java	/^	public int getV1() {$/;"	m	class:Face
+getV2	../util/Face.java	/^	public int getV2() {$/;"	m	class:Face
+getV3	../util/Face.java	/^	public int getV3() {$/;"	m	class:Face
+getWhiteDead	../core/State.java	/^	public int[] getWhiteDead()$/;"	m	class:State
+getWhiteDeadCnt	../core/State.java	/^	public int getWhiteDeadCnt()$/;"	m	class:State
+getXAngle	../scene/CameraManager.java	/^	private float getXAngle()$/;"	m	class:CameraManager	file:
+getXDistance	../scene/CameraManager.java	/^	private float getXDistance()$/;"	m	class:CameraManager	file:
+getYAngle	../scene/CameraManager.java	/^	private float getYAngle()$/;"	m	class:CameraManager	file:
+getYDistance	../scene/CameraManager.java	/^	private float getYDistance()$/;"	m	class:CameraManager	file:
+getZDistance	../scene/CameraManager.java	/^	private float getZDistance()$/;"	m	class:CameraManager	file:
+highlight	../core/Field.java	/^	public boolean highlight = false;$/;"	f	class:Field
+in	../network/ClientManager.java	/^	private ObjectInputStream in;$/;"	f	class:ClientManager	file:
+in	../network/ServerManager.java	/^	private ObjectInputStream in;$/;"	f	class:ServerManager	file:
+inFile	../util/Xml2Alc.java	/^	BufferedReader inFile;$/;"	f	class:Xml2Alc
+ipAddress	../network/ClientManager.java	/^	private String ipAddress;$/;"	f	class:ClientManager	file:
+isAvailableField	../core/State.java	/^	private boolean isAvailableField( int pRow, int pCol )$/;"	m	class:State	file:
+isAvailableSelection	../core/State.java	/^	private boolean isAvailableSelection( int pRow, int pCol )$/;"	m	class:State	file:
+isCheckMate	../core/State.java	/^	private boolean isCheckMate()$/;"	m	class:State	file:
+isConnected	../network/ServerManager.java	/^	public boolean isConnected()$/;"	m	class:ServerManager
+isEnemyField	../core/State.java	/^	private boolean isEnemyField( int pRow, int pCol )$/;"	m	class:State	file:
+isHighlightOn	../core/State.java	/^	private boolean isHighlightOn( int pRow, int pCol )$/;"	m	class:State	file:
+isNoneField	../core/State.java	/^	private boolean isNoneField( int pRow, int pCol )$/;"	m	class:State	file:
+isOurField	../core/State.java	/^	private boolean isOurField( int pRow, int pCol )$/;"	m	class:State	file:
+isSelected	../core/State.java	/^	public boolean isSelected()$/;"	m	class:State
+kind	../core/Field.java	/^	public int kind = NONE;$/;"	f	class:Field
+lightPos	../scene/SceneManager.java	/^	private FloatBuffer lightPos = BufferUtils.createFloatBuffer(4);$/;"	f	class:SceneManager	file:
+listenEvent	../model/ModelManager.java	/^	public void listenEvent()$/;"	m	class:ModelManager
+listenEvent	../scene/CameraManager.java	/^	public void listenEvent()$/;"	m	class:CameraManager
+listenEvent	../scene/WindowManager.java	/^	public void listenEvent()$/;"	m	class:WindowManager
+load	../model/BoardModel.java	/^	public void load( String pAlcFile, String pTexFile )$/;"	m	class:BoardModel
+load	../model/MarkerModel.java	/^	public void load( String pFileName )$/;"	m	class:MarkerModel
+loadBoard	../model/ModelLoader.java	/^	public int loadBoard( String pAlcFile, String pTexFile )$/;"	m	class:ModelLoader
+loadMarker	../model/ModelLoader.java	/^	public int loadMarker( String pFileName )$/;"	m	class:ModelLoader
+loadVertices	../model/ModelLoader.java	/^	private void loadVertices( String pFileName )$/;"	m	class:ModelLoader	file:
+main	../JChess.java	/^	public static void main( String[] args )$/;"	m	class:JChess
+main	../JChessDebug.java	/^	public static void main( String[] args )$/;"	m	class:JChessDebug
+main	../util/Xml2Alc.java	/^	public static void main(String[] args)$/;"	m	class:Xml2Alc
+markers	../model/ModelManager.java	/^	private MarkerModel[] markers;$/;"	f	class:ModelManager	file:
+modelList	../model/BoardModel.java	/^	private int modelList = -1;$/;"	f	class:BoardModel	file:
+modelList	../model/MarkerModel.java	/^	private int modelList = -1;$/;"	f	class:MarkerModel	file:
+moveTo	../core/State.java	/^	public boolean moveTo( int pRow, int pCol )$/;"	m	class:State
+network	../model/ModelManager.java	/^	private NetworkManager network;$/;"	f	class:ModelManager	file:
+normals	../model/ModelLoader.java	/^	private Vector3f[] normals;$/;"	f	class:ModelLoader	file:
+numFaces	../util/AlcHeader.java	/^	public int numFaces;$/;"	f	class:AlcHeader
+numVertices	../util/AlcHeader.java	/^	public int numVertices;$/;"	f	class:AlcHeader
+offsetFaces	../util/AlcHeader.java	/^	public int offsetFaces = 48;$/;"	f	class:AlcHeader
+offsetVertices	../util/AlcHeader.java	/^	public int offsetVertices;$/;"	f	class:AlcHeader
+openFiles	../util/Xml2Alc.java	/^	public void openFiles(String pFileName) $/;"	m	class:Xml2Alc
+out	../network/ClientManager.java	/^	private ObjectOutputStream out;$/;"	f	class:ClientManager	file:
+out	../network/ServerManager.java	/^	private ObjectOutputStream out;$/;"	f	class:ServerManager	file:
+outFile	../util/Xml2Alc.java	/^	RandomAccessFile outFile;$/;"	f	class:Xml2Alc
+pass	../core/State.java	/^	public void pass()$/;"	m	class:State
+positions	../model/ModelLoader.java	/^	private Vector3f[] positions;$/;"	f	class:ModelLoader	file:
+printAll	../core/State.java	/^	public void printAll()$/;"	m	class:State
+process	../network/DeselectionEvent.java	/^	public void process( State pState )$/;"	m	class:DeselectionEvent
+process	../network/Event.java	/^	public void process( State pState );$/;"	m	interface:Event
+process	../network/MovementEvent.java	/^	public void process( State pState )$/;"	m	class:MovementEvent
+process	../network/SelectionEvent.java	/^	public void process( State pState )$/;"	m	class:SelectionEvent
+processFile	../util/Xml2Alc.java	/^	public void processFile()$/;"	m	class:Xml2Alc
+processSelection	../model/ModelManager.java	/^	private void processSelection( int pX, int pY )$/;"	m	class:ModelManager	file:
+readFaces	../util/Xml2Alc.java	/^	private void readFaces(char c) throws Exception$/;"	m	class:Xml2Alc	file:
+readGeometry	../util/Xml2Alc.java	/^	public void readGeometry(char c) throws Exception$/;"	m	class:Xml2Alc
+readNormal	../util/Xml2Alc.java	/^	public void readNormal(char c) throws Exception$/;"	m	class:Xml2Alc
+readPosition	../util/Xml2Alc.java	/^	private void readPosition(char c) throws Exception$/;"	m	class:Xml2Alc	file:
+row	../network/DeselectionEvent.java	/^	private int row;$/;"	f	class:DeselectionEvent	file:
+row	../network/MovementEvent.java	/^	private int row;$/;"	f	class:MovementEvent	file:
+row	../network/SelectionEvent.java	/^	private int row;$/;"	f	class:SelectionEvent	file:
+run	../network/ClientManager.java	/^	public void run()$/;"	m	class:ClientManager
+run	../network/ServerManager.java	/^	public void run()$/;"	m	class:ServerManager
+select	../core/State.java	/^	public boolean select( int pRow, int pCol )$/;"	m	class:State
+selectedCol	../core/State.java	/^	private int selectedCol;$/;"	f	class:State	file:
+selectedRow	../core/State.java	/^	private int selectedRow;$/;"	f	class:State	file:
+sendEvent	../network/ClientManager.java	/^	public void sendEvent( Event pEvent )$/;"	m	class:ClientManager
+sendFlag	../network/ServerManager.java	/^	private boolean sendFlag = false;$/;"	f	class:ServerManager	file:
+sendState	../network/ServerManager.java	/^	public void sendState()$/;"	m	class:ServerManager
+server	../model/ModelManager.java	/^	private boolean server;$/;"	f	class:ModelManager	file:
+setBishopHighlightOn	../core/State.java	/^	private void setBishopHighlightOn()$/;"	m	class:State	file:
+setFullscreen	../scene/WindowManager.java	/^	public void setFullscreen( boolean pFullscreen )$/;"	m	class:WindowManager
+setHighlightOn	../core/State.java	/^	private void setHighlightOn()$/;"	m	class:State	file:
+setKingHighlightOn	../core/State.java	/^	private void setKingHighlightOn()$/;"	m	class:State	file:
+setKnightHighlightOn	../core/State.java	/^	private void setKnightHighlightOn()$/;"	m	class:State	file:
+setPawnHighlightOn	../core/State.java	/^	private void setPawnHighlightOn()$/;"	m	class:State	file:
+setQueenHighlightOn	../core/State.java	/^	private void setQueenHighlightOn()$/;"	m	class:State	file:
+setRookHighlightOn	../core/State.java	/^	private void setRookHighlightOn()$/;"	m	class:State	file:
+setState	../model/ModelManager.java	/^	public void setState( State pState )$/;"	m	class:ModelManager
+setXAngle	../scene/CameraManager.java	/^	private void setXAngle( float pXAngle )$/;"	m	class:CameraManager	file:
+setXDistance	../scene/CameraManager.java	/^	private void setXDistance( float pXDistance )$/;"	m	class:CameraManager	file:
+setYAngle	../scene/CameraManager.java	/^	private void setYAngle( float pYAngle )$/;"	m	class:CameraManager	file:
+setYDistance	../scene/CameraManager.java	/^	private void setYDistance( float pYDistance )$/;"	m	class:CameraManager	file:
+setZDistance	../scene/CameraManager.java	/^	private void setZDistance( float pZDistance )$/;"	m	class:CameraManager	file:
+setup	../scene/CameraManager.java	/^	public void setup()$/;"	m	class:CameraManager
+socket	../network/ClientManager.java	/^	private Socket socket;$/;"	f	class:ClientManager	file:
+socket	../network/ServerManager.java	/^	private Socket socket;$/;"	f	class:ServerManager	file:
+spotDirection	../scene/SceneManager.java	/^	private FloatBuffer spotDirection = BufferUtils.createFloatBuffer(4);$/;"	f	class:SceneManager	file:
+srvSocket	../network/ServerManager.java	/^	private ServerSocket srvSocket;$/;"	f	class:ServerManager	file:
+start	../network/ClientManager.java	/^	public void start()$/;"	m	class:ClientManager
+start	../network/ServerManager.java	/^	public void start()$/;"	m	class:ServerManager
+state	../model/ModelManager.java	/^	private State state;$/;"	f	class:ModelManager	file:
+state	../network/ClientManager.java	/^	private State state;$/;"	f	class:ClientManager	file:
+state	../network/ServerManager.java	/^	private State state;$/;"	f	class:ServerManager	file:
+state	../util/Xml2Alc.java	/^	Statement state = Statement.START;$/;"	f	class:Xml2Alc
+stop	../network/ClientManager.java	/^	public void stop()$/;"	m	class:ClientManager
+stop	../network/ServerManager.java	/^	public void stop()$/;"	m	class:ServerManager
+thread	../network/ClientManager.java	/^	private Thread thread;$/;"	f	class:ClientManager	file:
+thread	../network/ServerManager.java	/^	private Thread thread;$/;"	f	class:ServerManager	file:
+toggleFullscreen	../scene/WindowManager.java	/^	public void toggleFullscreen()$/;"	m	class:WindowManager
+v1	../util/Face.java	/^	private int v1, v2, v3;$/;"	f	class:Face	file:
+v2	../util/Face.java	/^	private int v1, v2, v3;$/;"	f	class:Face	file:
+v3	../util/Face.java	/^	private int v1, v2, v3;$/;"	f	class:Face	file:
+version	../util/AlcHeader.java	/^	public int version = 1;$/;"	f	class:AlcHeader
+vertices	../util/Xml2Alc.java	/^	ArrayList vertices = new ArrayList();$/;"	f	class:Xml2Alc
+whiteDead	../core/State.java	/^	private int[] whiteDead = new int[16];$/;"	f	class:State	file:
+whiteDeadCnt	../core/State.java	/^	private int whiteDeadCnt;$/;"	f	class:State	file:
+whiteKingCol	../core/State.java	/^	private int whiteKingCol;$/;"	f	class:State	file:
+whiteKingRow	../core/State.java	/^	private int whiteKingRow;$/;"	f	class:State	file:
+whiteSpecialMove	../core/State.java	/^	private boolean whiteSpecialMove;$/;"	f	class:State	file:
+windowTitle	../scene/WindowManager.java	/^	private String windowTitle;$/;"	f	class:WindowManager	file:
+writeFile	../util/Xml2Alc.java	/^	private void writeFile() throws Exception$/;"	m	class:Xml2Alc	file:
+x	../scene/CameraManager.java	/^	private int x;$/;"	f	class:CameraManager	file:
+xAngle	../scene/CameraManager.java	/^	private float xAngle = 45.0f;$/;"	f	class:CameraManager	file:
+xDistance	../scene/CameraManager.java	/^	private float xDistance = 0.0f;$/;"	f	class:CameraManager	file:
+y	../scene/CameraManager.java	/^	private int y;$/;"	f	class:CameraManager	file:
+yAngle	../scene/CameraManager.java	/^	private float yAngle = 0.0f;$/;"	f	class:CameraManager	file:
+yDistance	../scene/CameraManager.java	/^	private float yDistance = 1.0f;$/;"	f	class:CameraManager	file:
+z	../scene/CameraManager.java	/^	private int z;$/;"	f	class:CameraManager	file:
+zDistance	../scene/CameraManager.java	/^	private float zDistance = -25.0f;$/;"	f	class:CameraManager	file:
